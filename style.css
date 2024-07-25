@@ -197,3 +197,29 @@ footer p {
   padding: 10px 30px;
   font-size: 18px;
 }
+/* estilo.css */
+
+.link {
+  text-decoration: none;
+  color: var(--cor-principal);
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: var(--cor-secundaria);
+}
+
+.link-primary {
+  color: var(--cor-secundaria);
+}
+
+.link-secondary {
+  color: #fff;
+  background-color: var(--cor-principal);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.link-secondary:hover {
+  background-color: var(--cor-secundaria);
+}
