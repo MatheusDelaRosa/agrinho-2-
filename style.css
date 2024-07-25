@@ -327,3 +327,10 @@ footer p {
 .campo-footer p {
   margin-bottom: 10px;
 }
+.campo-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
